@@ -53,8 +53,7 @@ class RecintosZoo {
       if (espacoDisponivel < 0) {
         return false;
       }
-  
-      
+        
       if (animalInfo.carnivoro && recinto.animais.length > 0 && recinto.animais[0].especie !== animal) {
         return false;
       }
@@ -64,7 +63,6 @@ class RecintosZoo {
         return false;
       }
   
-      
       if (animal === 'MACACO') {
         
         if (recinto.animais.length === 0 && quantidade === 1) {
